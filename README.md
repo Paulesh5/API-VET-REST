@@ -20,3 +20,6 @@ Creación de un Backend para el manejo de un sistema de veterinaria.
 ![Alt text](image-1.png)
 ![Alt text](image-8.png)
 ![Alt text](image-9.png)
+![Alt text](image-10.png)
+![Alt text](image-11.png)
+![Alt text](image-12.png)
