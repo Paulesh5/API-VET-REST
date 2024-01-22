@@ -1,5 +1,6 @@
 import jwt from 'jsonwebtoken'
 import Veterinario from '../models/Veterinario.js'
+import Paciente from '../models/Paciente.js'
 
 const verificarAutenticacion = async (req,res,next)=>{
 
