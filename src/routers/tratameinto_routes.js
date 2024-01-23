@@ -18,7 +18,7 @@ router
     .put(verificarAutenticacion,actualizarTratamiento)
     .delete(verificarAutenticacion,eliminarTratamiento)
 
-router.put('/tratamiento/estado/:id',verificarAutenticacion,cambiarEstado)
+router.post('/tratamiento/estado/:id',verificarAutenticacion,cambiarEstado)
 
 
 export default router
