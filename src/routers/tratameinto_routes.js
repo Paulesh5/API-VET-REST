@@ -7,11 +7,12 @@ import {
     cambiarEstado
 } from "../controllers/tratamiento_controller.js";
 import verificarAutenticacion from "../middlewares/autenticacion.js";
+import { validacionTratamiento } from '../middlewares/validacionTratamiento.js';
 
 
 const router = Router()
 
-router.post('/tratamiento/registro',verificarAutenticacion,registrarTratamiento)
+router.post('/tratamiento/registro',verificarAutenticacion, validacionTratamiento, registrarTratamiento)
 router
     .route('/tratamiento/:id')
     .get(verificarAutenticacion,detalleTratamiento)
